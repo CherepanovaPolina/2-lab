@@ -1,0 +1,6 @@
+if __name__ == '__main__':
+    a = False
+    b = True
+    c = False
+    print(not a or b and c)
+    print((not a or b) and c)
