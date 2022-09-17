@@ -1,0 +1,4 @@
+if __name__ == '__main__':
+    a = - 5.7
+    x = abs(a)
+    print(x)
