@@ -1,0 +1,10 @@
+if __name__ == '__main__':
+    x = int(input('Введите X: '))
+    y = int(input('Введите Y: '))
+    i = min(x, y)
+    while True:
+        if i % x == 0 and i % y == 0:
+            break
+        i += 1
+    print('Нужно кусков', i)
+    print('Пицца порезана')
