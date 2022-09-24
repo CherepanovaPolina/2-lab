@@ -1,0 +1,14 @@
+if __name__ == '__main__':
+    x1 = int(input('Введите значение 1: '))
+    x2 = int(input('Введите значение 2: '))
+    x3 = int(input('Введите значение 3: '))
+    x4 = int(input('Введите значение 4: '))
+    print('Результат')
+    for j in range(x3, x4 + 1):
+        print(j, end='\t')
+    print()
+    for i in range(x1, x2 + 1):
+        print(i, end='\t')
+        for j in range(x3, x4 + 1):
+            print(i * j, end='\t')
+        print()
